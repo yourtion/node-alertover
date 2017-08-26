@@ -50,6 +50,17 @@ class AlertOver {
     this.urgency = options.urgency || false;
   }
 
+  /**
+   * 发送 Alert
+   * 
+   * @param {String} title 发送标题
+   * @param {Stringany} content 发送内容
+   * @param {boolean} [urgency=false] 是否紧急 
+   * @param {String} [receiver=this.receiver] 接收组 
+   * @param {String} [source=this.source] 发送源
+   * @returns {Promise}
+   * @memberof AlertOver
+   */
   send(title, content, urgency = false, receiver = this.receiver, source = this.source) {
     const data = {
       source,

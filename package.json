@@ -1,6 +1,6 @@
 {
   "name": "alertover",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "AlertOver (https://www.alertover.com ) client for Node.js",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,13 @@
     "team-alert"
   ],
   "author": "Yourtion <yourtion@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourtion/node-alertover.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourtion/node-alertover/issues"
+  },
+  "homepage": "https://github.com/yourtion/node-alertover#readme",
   "license": "MIT"
 }
